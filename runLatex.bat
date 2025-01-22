@@ -13,4 +13,4 @@ rem
 rem --------------------------------------------------------------------------------------------------
 
 @echo off
-pdflatex Imaginary_numbers_presentation.tex
+pdflatex ImaginaryNumbers.tex

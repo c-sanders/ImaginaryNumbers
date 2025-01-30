@@ -342,23 +342,57 @@ imaginary numbers. To overcome this, we will need to generate another plot in a 
 
 
 %
-% Frame 3b)
-%
-
-\begin{frame}
-
-At first, our plot might look like this;\\
-
-\includegraphics[scale=0.25]{"Red box.png"}
-
-\end{frame}
-
-
-%
 % Frame 2j)
 %
 
 \begin{frame}
-\frametitle{3-d rotations in a complex space?}
+\frametitle{Dividing a real number by \(i\).}
+
+What happens if we divide a real number by \(i\)?\\~\
+
+Consider the following example, where the real number \(2\) is divided by \(i\);
+
+\begin{align*}
+\dfrac{2}{i} &= i^{4} \times \dfrac{2}{i}  \\
+             &= \dfrac{i^{4} \times 2}{i}  \\
+             &= i^{3}2
+\end{align*}
+
+Recall however, that multiplying a real number by \(i^{3}\) is the same as multiplying it by \(-i\).
 
 \end{frame}
+
+
+%
+% Frame 2
+%
+
+\begin{frame}
+\frametitle{3-d rotations using imaginary numbers?}
+
+We have seen from the previous slides, that imaginary numbers allow us to easily perform 2-d rotations in the 2-d complex plane.\\~\
+
+But what about if we wanted to perform 3-d rotations? Can imaginary numbers help with this problem at all? As it turns out, the answer is yes. 
+The mathematician William Rowan Hamilton spent a good deal of his life on this problem, trying to come up with a solution -- and the solution which
+he came up with are a concept in mathematics which are known as ``quaternions''.\\~\
+
+but what are quaternions exactly? Quaternions -- along with octonions and sedenions, belong to a class of numbers known as ``hyper-complex numbers''.
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{A gentle introduction to hyper-complex numbers.}
+
+Take the complex plane which we discussed earlier. It is comprised of two number lines which are arranged relative to each other in an orthogonal fashion.
+Now consider what would happen if we were to add another imaginary axis to it -- where this new axis would be
+orthogonal to the original two axes which comprised the complex plane. We would now have a 3-d space which is comprised of one real axis and two imaginary axes.\\~\
+
+Now let us take this a step further, and consider removing the real axis from this 3-d space. Furthermore, let us make up for the removal of the real
+axis by adding another imaginary axis to the plane. We would now be back to having a 3-d space which is made up of three imaginary axes which are all 
+orthogonal to each other.
+
+\end{frame}
+
+
+
